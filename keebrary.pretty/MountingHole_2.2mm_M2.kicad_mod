@@ -1,0 +1,149 @@
+(footprint "MountingHole_2.2mm_M2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8bcbd8c2-9aa1-4b8d-98cf-6b06bba9819a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_2.2mm_M2"
+		(at 0 3.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "055abbf3-4300-4b85-8620-5cd05d1dda6a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0f9ba1f-862e-4277-b2bc-b6f166b6298d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85b87299-b830-40c0-af24-0e159ca134cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc78e275-0224-49c1-a8cf-371f66b6ae74")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "MP" thru_hole circle
+		(at -1.65 0 340)
+		(size 0.7 0.7)
+		(drill 0.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "abbe9aee-4ecf-4523-a6a8-17ca392c8856")
+	)
+	(pad "MP" thru_hole circle
+		(at -1.166726 -1.166726 340)
+		(size 0.7 0.7)
+		(drill 0.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e2c0f26a-30b8-4e4e-b82e-3b25ed5ec687")
+	)
+	(pad "MP" thru_hole circle
+		(at -1.166726 1.166726 340)
+		(size 0.7 0.7)
+		(drill 0.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7e228d70-c09b-4ab4-be57-43a516c3d17d")
+	)
+	(pad "MP" thru_hole circle
+		(at 0 -1.65 340)
+		(size 0.7 0.7)
+		(drill 0.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aef0fda5-c8a6-4a2e-bd02-a31843b32f45")
+	)
+	(pad "MP" thru_hole circle
+		(at 0 0 340)
+		(size 4.4 4.4)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e05a598b-1db0-452c-b86d-9543e1f05bb5")
+	)
+	(pad "MP" thru_hole circle
+		(at 0 1.65 340)
+		(size 0.7 0.7)
+		(drill 0.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4ecdcd70-a85f-4648-b34c-2dc90264a0b7")
+	)
+	(pad "MP" thru_hole circle
+		(at 1.166726 -1.166726 340)
+		(size 0.7 0.7)
+		(drill 0.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b460633a-7041-4edf-a64c-c32411dd146b")
+	)
+	(pad "MP" thru_hole circle
+		(at 1.166726 1.166726 340)
+		(size 0.7 0.7)
+		(drill 0.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d8fc1e5f-4624-4067-9ccf-d6dae6333074")
+	)
+	(pad "MP" thru_hole circle
+		(at 1.65 0 340)
+		(size 0.7 0.7)
+		(drill 0.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cf9e6d24-abe9-460e-b552-f77a920c5792")
+	)
+	(model "../lib/3dmodels/spacer-m2-5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

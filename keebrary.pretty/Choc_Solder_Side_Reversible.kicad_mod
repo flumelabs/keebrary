@@ -1,0 +1,157 @@
+(footprint "Choc_Solder_Side_Reversible"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Kailh Choc Solder")
+	(property "Reference" "REF**"
+		(at 0 8.8 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0241accc-06ed-465a-a25c-abbe4cae875a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Choc_Solder_Side_Reversible"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "700e2382-5a71-4aa9-bb5f-425e61c9975b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0726d5b3-b783-402e-8e53-33967352eab4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba23d023-83f9-4834-9dc8-01379a6fbed1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Kailh Choc Solder"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db76584a-e4c4-41ff-a1eb-cca425f9e4e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+	(fp_poly
+		(pts
+			(xy 9 8.5) (xy -9 8.5) (xy -9 -8.5) (xy 9 -8.5)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "7842cd8d-8d7c-4e7f-b357-3f8c306fc162")
+	)
+	(pad "" thru_hole circle
+		(at -5.5 0)
+		(size 2.2 2.2)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "33e60a88-9a4e-4cb5-b957-a3e8faeaff33")
+	)
+	(pad "" thru_hole circle
+		(at 0 0)
+		(size 3.7 3.7)
+		(drill 3.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "73ab40c9-d66b-497e-904c-1bc57d22ca15")
+	)
+	(pad "" thru_hole circle
+		(at 5.5 0)
+		(size 2.2 2.2)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9c6839bf-64e1-48ab-86ae-9c2e0d84281a")
+	)
+	(pad "1" thru_hole circle
+		(at -5 -3.8 195)
+		(size 2.032 2.032)
+		(drill 1.27)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "093de100-a8c0-443d-9d70-1d2e731b07af")
+	)
+	(pad "1" thru_hole circle
+		(at -5 3.8 195)
+		(size 2.032 2.032)
+		(drill 1.27)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0b44d690-8796-42db-9dea-eb5815e495d1")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -5.9 195)
+		(size 2.032 2.032)
+		(drill 1.27)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "04d38b9c-2a80-4cb7-988a-97bda6978188")
+	)
+	(pad "2" thru_hole circle
+		(at 0 5.9 165)
+		(size 2.032 2.032)
+		(drill 1.27)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8d2fcb85-1d35-4aac-8924-0ef7b1f502d2")
+	)
+	(model "../lib/3dmodels/choc-v1-switch.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+	(model "../lib/3dmodels/choc-v1-keycap.step"
+		(offset
+			(xyz 0 0 6.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

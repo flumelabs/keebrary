@@ -1,0 +1,241 @@
+(footprint "RotatoryEncoder"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "465def6f-d915-46bd-acbe-f3c16c51b353")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RotatoryEncoder"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a83a257f-1089-46d2-9465-f5850b2a8277")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3ad6548-395b-45a6-871d-5755b74d173b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62f66520-8d3a-4abe-b990-7df2a28ebd96")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6bc4e5a-2258-4f65-a254-7218b2ce063e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.9 -6.1)
+		(end -3.5 -6.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "baf6e143-78b8-410d-9ba0-e4ae863d5f0c")
+	)
+	(fp_line
+		(start -5.9 -2)
+		(end -5.9 -6.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea96e9f5-fc1a-4d77-97c6-c702e39bdbc0")
+	)
+	(fp_line
+		(start -5.9 2)
+		(end -5.9 6.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e887520-0f00-4111-9200-e9f181d506e3")
+	)
+	(fp_line
+		(start -5.9 6.1)
+		(end 5.9 6.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "337994f0-8cb4-4590-81d3-d4a58e4eb792")
+	)
+	(fp_line
+		(start -1.3 -6.1)
+		(end 1.3 -6.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c86385ab-b752-404f-b6be-5a8b096b0bbd")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3859166e-75a1-4bfd-abf3-28e4d89c0076")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "66be8312-4bb1-4623-9ed3-bf66ea472876")
+	)
+	(fp_line
+		(start 3.5 -6.1)
+		(end 5.9 -6.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0c0f7e1-43a7-4703-a735-0da8454ef64d")
+	)
+	(fp_line
+		(start 5.9 -6.1)
+		(end 5.9 -2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd362742-6c6c-4bec-966b-aec0655473c7")
+	)
+	(fp_line
+		(start 5.9 2)
+		(end 5.9 6.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "598d23f3-3d85-4fc4-8247-dad94b6f4d30")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b2cd70d0-ccd5-4d88-bee9-f64fb779ca93")
+	)
+	(pad "" thru_hole roundrect
+		(at -5.6 0 270)
+		(size 2.6 1.8)
+		(drill oval 2.3 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1388888889)
+		(uuid "cd332f74-02b2-4645-a53f-765fe6686e37")
+	)
+	(pad "" thru_hole roundrect
+		(at 5.6 0 270)
+		(size 2.6 1.8)
+		(drill oval 2.3 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1388888889)
+		(uuid "7c277199-2403-4606-8af6-b0418c95bd9a")
+	)
+	(pad "A" thru_hole oval
+		(at 2.5 7.5)
+		(size 1.6 1.1)
+		(drill oval 1 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8002226f-d322-4535-82bb-cddafac28bd6")
+	)
+	(pad "B" thru_hole oval
+		(at 0 7.5)
+		(size 1.6 1.1)
+		(drill oval 1 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b9735cd2-f91e-437f-83cc-b32cbc5bba85")
+	)
+	(pad "C" thru_hole oval
+		(at -2.5 7.5)
+		(size 1.6 1.1)
+		(drill oval 1 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c89dab32-a26c-4a12-9afb-9a25f1defb80")
+	)
+	(model "../lib/3dmodels/EC12E-085.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "../lib/3dmodels/geist-ec12-knob.step"
+		(offset
+			(xyz 0 0 6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

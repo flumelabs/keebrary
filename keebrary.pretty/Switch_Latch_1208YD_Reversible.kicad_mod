@@ -1,0 +1,120 @@
+(footprint "Switch_Latch_1208YD_Reversible"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1e37f8c2-aeb8-4dd1-825e-5ba5461947b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Switch_1208YD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "efdc5d1d-087c-470a-97da-a5bde7b32497")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a9ca1a7-5b4e-493d-944a-650d25371f20")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81e220e0-46b5-4aa8-ad36-67697bc948c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d87679ba-1f8e-45dd-b5c6-6a646550016b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 3.55 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "b33e053a-2783-4379-a0aa-518523bfaa26")
+	)
+	(pad "1" smd roundrect
+		(at -7.5 0)
+		(size 2.5 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "43a2f7e7-bf1b-4b91-acfe-aa5353c0eedf")
+	)
+	(pad "1" smd roundrect
+		(at 7.5 0)
+		(size 2.5 4)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "8b517367-3479-490e-9ab0-f96fdd7b9690")
+	)
+	(pad "2" smd roundrect
+		(at -7.5 0)
+		(size 2.5 4)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "9b132a43-e3e9-462d-b553-6c981178fdb7")
+	)
+	(pad "2" smd roundrect
+		(at 7.5 0)
+		(size 2.5 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "85422f78-790f-468c-8234-a443b9259acd")
+	)
+	(model "${KICAD8_CUSTOM_3DMODEL_DIR}/button-1208yd.step"
+		(offset
+			(xyz 0 0 -4.35)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
